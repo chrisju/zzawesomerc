@@ -157,6 +157,7 @@ mymainmenu = awful.menu({ items = {
     {"&Chromium", "chromium ", "/usr/share/icons/hicolor/16x16/apps/chromium.png" },
     { "常用 (&U)", myappmenu , beautiful.awesome_icon },
     { "应用程序 (&A)", xdgmenu  , beautiful.awesome_icon },
+    { "待机 (&S)", "systemctl suspend"},
     { "关机 (&H)", "systemctl poweroff", '/usr/share/icons/gnome/16x16/actions/gtk-quit.png' },
     { "Awesome", myawesomemenu, beautiful.awesome_icon },
      {"u&rxvt", "urxvt", "/usr/share/icons/gnome/16x16/apps/utilities-terminal.png" },
