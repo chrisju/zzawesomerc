@@ -1,0 +1,4 @@
+zzawesomerc
+===========
+
+my ~/.config/awesome
